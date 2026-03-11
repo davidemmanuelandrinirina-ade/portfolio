@@ -1,4 +1,8 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 body {
     text-align: center;
     background: url(./What-is-an-Electric-Circuit-1024x683.jpg) ;
@@ -46,7 +50,16 @@ a {
     margin-left: 260px;
     border-radius: 50px;
     border: solid 10px ;
-    background: linear-gradient(180°,#016e70,#069799);
+    background: linear-gradient(180°,#016e7072,#06979953);
+    transition: 0.3s;
+    border-color: #78787867;
+    box-shadow: 0 0 25px var(--main-color);
+}
+.img2 img:hover {
+box-shadow:0 0 25px white,
+            0 0 50px white,
+            0 0 80px white;
+
 }
 h3 {
     font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +78,7 @@ section {
 .text0 {
      border-radius: 20px;
     padding: 20px;
-    background-color: rgb(0, 101, 101);
+    background-color: rgba(0, 101, 101, 0.809);
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
@@ -75,7 +88,7 @@ section {
     margin-right: 10px;
     border-radius: 20px;
     padding: 20px;
-    background-color: rgb(0, 101, 101);
+    background-color: rgba(0, 101, 101, 0.768);
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
@@ -95,7 +108,7 @@ section {
     gap: 10px;
 }
 .text1 {
-    background-color: rgb(0, 101, 101);
+    background-color: rgba(0, 101, 101, 0.764);
     border-radius: 20px;
     padding: 20px;
      font-size: medium;
@@ -103,6 +116,23 @@ section {
     color: aliceblue;
 
 }
+.text2 {
+    background-color: rgba(0, 101, 101, 0.764);
+    border-radius: 20px;
+    padding: 20px;
+     font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.text3 {
+    background-color: rgba(0, 101, 101, 0.764);
+    border-radius: 20px;
+    padding: 20px;
+     font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
 h2 {
     font-weight: 800;
 }
@@ -113,7 +143,8 @@ h2 {
 
 }
 #href {
-    background-color: rgb(0, 101, 101);
+    margin-top: 25px;
+    background-color: rgba(0, 101, 101, 0.785);
     border-radius: 20px;
     padding: 20px;
      font-size: medium;
@@ -121,6 +152,34 @@ h2 {
     color: aliceblue;
 }
 .cont {
-    
+    display: flex;
     margin-left: 10px;
+}
+#link {
+    background-color: rgba(0, 101, 101, 0.86);
+    border-radius: 20px;
+    padding: 20px;
+     font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 1frs;
+} 
+.botton {
+    border: solid;
+    border-radius: 5px;
+    background-color: #00a1a4;
+    border-color: #00a1a4;
+    font-size: x-large;
+    
+}
+.botton:hover {
+    transition: 0.5s
+     cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(120%);
 }
